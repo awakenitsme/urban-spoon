@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <form  method="post" class="formu">
+      <div id="contenedor">
+  <div id="caja-input">
+    <h1>Register</h1> 
+    
+      <input type="text" id="email"  class="input" name="user" placeholder="Nombre y Apellido" required><br>
+    
+      <select name="" id="email" class="input" required>
+        <option value="">Selecciona el curso</option>
+        <option value="">1 Primaria</option>
+        <option value="">2 primaria</option>
+        <option value="">3 primaria</option>
+        <option value="">4 Primaria</option>
+        <option value="">5 primaria</option>
+        <option value="">6 primaria</option>
+        <option value="">1 secundaria</option>
+        <option value="">2 secundaria</option>
+        <option value="">3 secundaria</option>
+        <option value="">4 secundaria</option>
+        <option value="">5 secundaria</option>
+        <option value> </option>
+        </select>
+        <h4 class="choose"> Escoge el combo que prefieras</h4>
+        <input type="checkbox"  class="radio"  /><label for="track">Pizza con refresco </label><br />
+        <input type="checkbox"  class="radio"  /><label for="event">Nachos con queso y refresco</label><br />
+        <input type="checkbox"   class="radio"  /><label for="track">Croqueta(1), Quipe(1), Pastelito(1) </label><br />
+        <input type="checkbox"    class="radio"  /><label for="track">Palomitas con refresco </label><br />
+ 
+    <br>
+      <input type="submit" id="enviar" name="btn-enviar" value="Enviar"> 
+ </div>
+</div>
+</form>
+
+
+
+<?php
+
+include("./conexion_php/registrar.php");
+?>
+</body>
+</html>
