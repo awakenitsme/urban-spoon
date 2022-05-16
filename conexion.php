@@ -1,8 +1,17 @@
 <?php
-	$mysqli = new mysqli('localhost', 'root', '1324', 'jambriento');
-	
-	if($mysqli->connect_error){
-		
-		die('Error en la conexion' . $mysqli->connect_error);	
-	}
+
+
+
+$servername = "localhost";
+$username = "root";
+$password = "";
+$db = "jambriento";
+$mysqli = new mysqli($servername,$username,$password,$db);
+
+if(mysqli_connect_errno()){
+    printf("Fallo en la conexion: %s/n",
+    $mysqli->connect_error);
+    exit();
+}
+
 ?>
