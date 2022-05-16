@@ -21,6 +21,7 @@
 		<link href="css/bootstrap-theme.css" rel="stylesheet">
 		<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 		<script src="js/bootstrap.min.js"></script>	
+		<link rel="stylesheet" href="./css/tabla.css">
 	</head>
 	
 	<body>
@@ -31,11 +32,19 @@
 			</div>
 			
 			<div class="row">
-				<a href="nuevo.php" class="btn btn-primary">Nuevo Registro</a>
+				<div class="content">
+					<div class="add-btn">
+					<a href="nuevo.php" class="btn btn-primary">Nuevo Registro</a>
+					</div>
+				 <div class="search-bar">
+				 <b>Nombre: </b><input type="text" id="campo" name="campo" />
+				<input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
+				 </div>
+				</div>
+				
 				
 				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
-					<b>Nombre: </b><input type="text" id="campo" name="campo" />
-					<input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
+				
 				</form>
 			</div>
 			
@@ -58,13 +67,13 @@
 					<tbody>
 						<?php while($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
 							<tr>
-								<td><?php echo $row['id']; ?></td>
-								<td><?php echo $row['nombre']; ?></td>
-								<td><?php echo $row['curso']; ?></td>
-								<td><?php echo $row['telefono']; ?></td>
-								<td><?php echo $row['combo']; ?></td>
-								<td><a href="modificar.php?id=<?php echo $row['id']; ?>"><span class="btn btn-primary"></span></a></td>
-								<td><a href="eliminar.php?id=<?php echo $row['id']; ?>" data-toggle="modal"><span class="btn btn-warning"></span></a></td>
+								<td><?php echo $row['ID']; ?></td>
+								<td><?php echo $row['Nombre']; ?></td>
+								<td><?php echo $row['Curso']; ?></td>
+								<td><?php echo $row['Telefono']; ?></td>
+								<td><?php echo $row['Combo']; ?></td>
+								<td><a href="modificar.php?id=<?php echo $row['ID']; ?>"><span class="btn btn-primary"></span></a></td>
+								<td><a href="eliminar.php?id=<?php echo $row['ID']; ?>" data-toggle="modal"><span class="btn btn-warning"></span></a></td>
 							</tr>
 						<?php } ?>
 					</tbody>
