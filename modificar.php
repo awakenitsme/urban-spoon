@@ -51,21 +51,14 @@
 					<label for="combo" class="col-sm-2 control-label">Combo</label>
 				
 						<select class="form-control" id="combo" name="combo">
-<<<<<<< HEAD
-							<option <?php if($row['Combo']=='PIZZA CON REFRESCO') echo 'selected'; ?>>Pizza con refresco</option>
-							<option <?php if($row['Combo']=='NACHOS CON QUESO Y REFRESCO') echo 'selected'; ?>>Nachos con queso y refresco</option>
-							<option <?php if($row['Combo']=='1 CROQUETA, 1 QUIPE, 1 PASTELITO') echo 'selected'; ?>>1 Croqueta, 1 Quipe, 1 Pastelito</option>
-							<option <?php if($row['Combo']=='PALOMITAS CON REFRESCO') echo 'selected'; ?>>Palomitas con refresco</option>
-							<option <?php if($row['Combo']=='DONAS CON REFRESCO') echo 'selected'; ?>>Donas con refresco</option>
-							<option <?php if($row['Combo']=='SANDWICH CON JUGO NATURAL') echo 'selected'; ?>>Sandwich con jugo natural</option>
-							<option <?php if($row['Combo']=='SANDWICH DE PIZZA CON REFRESCO') echo 'selected'; ?>>Sandwich de pizza con refresco</option>
+							<option <?php if($row['Combo']=='Pizza con refresco') echo 'selected'; ?>>Pizza con refresco</option>
+							<option <?php if($row['Combo']=='Nachos con queso y refresco') echo 'selected'; ?>>Nachos con queso y refresco</option>
+							<option <?php if($row['Combo']=='1 Croqueta, 1 Quipe, 1 Pastelito') echo 'selected'; ?>>1 Croqueta, 1 Quipe, 1 Pastelito</option>
+							<option <?php if($row['Combo']=='Palomitas con refresco') echo 'selected'; ?>>Palomitas con refresco</option>
+							<option <?php if($row['Combo']=='Donas con refresco') echo 'selected'; ?>>Donas con refresco</option>
+							<option <?php if($row['Combo']=='Sandwich con jugo natural') echo 'selected'; ?>>Sandwich con jugo natural</option>
+							<option <?php if($row['Combo']=='Sandwich de pizza con refresco') echo 'selected'; ?>>Sandwich de pizza con refresco</option>
 
-=======
-							<option value="Combo1" <?php if($row['Combo']=='PIZZA CON REFRESCO') echo 'selected'; ?>>Pizza con refresco</option>
-							<option value="Combo2" <?php if($row['Combo']=='NACHOS CON QUESO Y REFRESCO') echo 'selected'; ?>>Nachos con queso y refresco</option>
-							<option value="Combo3" <?php if($row['Combo']=='1 CROQUETA, 1 QUIPE, 1 PASTELITO') echo 'selected'; ?>>1 Croqueta, 1 Quipe, 1 Pastelito</option>
-							<option value="Combo4" <?php if($row['Combo']=='PALOMITAS CON REFRESCO') echo 'selected'; ?>>Palomitas con refresco</option>
->>>>>>> 25433f7fd6228db301ceeacedfb31b76c03fd604
 						</select>
 					
 				
