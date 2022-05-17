@@ -10,11 +10,7 @@
 	</head>
 	
 	<body class="Body">
-<<<<<<< HEAD
 	<form  method="POST"  autocomplete="off" class="form" >
-=======
-	<form  method="POST"  autocomplete="off" class="form">
->>>>>>> 25433f7fd6228db301ceeacedfb31b76c03fd604
 		<div class="container">
 		
 				<h3 >NUEVO REGISTRO</h3>
@@ -41,7 +37,6 @@
 				<div class="form-group">
 				
 						<a href="index.php" class="btn btn-default">Regresar</a>
-<<<<<<< HEAD
 						<button class="btn btn-primary" name='btn_enviar'>Guardar</button>
 					
 				</div>
@@ -50,16 +45,5 @@
 	<?php
 	include("guardar.php")
 	?>
-=======
-						<button  class="btn btn-primary">Guardar</button>
-						<?php
-
-include("./guardar.php");
-?>
-				</div>
-				</div>
-			</form>
-	
->>>>>>> 25433f7fd6228db301ceeacedfb31b76c03fd604
 	</body>
 </html>
