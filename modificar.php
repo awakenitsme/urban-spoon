@@ -85,6 +85,10 @@
 					natural</option>
 				<option <?php if($row['Combo']=='Sandwich de pizza con refresco' ) echo 'selected' ; ?>>Sandwich de
 					pizza con refresco</option>
+				<option <?php if($row['Combo']=='1 Croissant relleno de crema de avellana + jugo natural de 16oz' ) echo 'selected' ; ?>>1 Croissant relleno de crema de avellana + jugo natural de 16oz</option>
+				<option <?php if($row['Combo']=='1 Croissant relleno de crema de queso + jugo natural de 16oz' ) echo 'selected' ; ?>>1 Croissant relleno de crema de queso + jugo natural de 16oz</option>
+				<option <?php if($row['Combo']=='1 Churro relleno de dulce de leche + refresco de 16oz' ) echo 'selected' ; ?>>1 Churro relleno de dulce de leche + refresco de 16oz</option>
+				<option <?php if($row['Combo']=='1 Pedazo de pizza con bordes de queso + refresco de 16oz' ) echo 'selected' ; ?>>1 Pedazo de pizza con bordes de queso + refresco de 16oz</option>
 			</select>
 
 

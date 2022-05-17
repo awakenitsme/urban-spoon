@@ -53,6 +53,10 @@
 				<option>Donas con refresco</option>
 				<option>Sandwich con jugo natural</option>
 				<option>Sandwich de pizza con refresco</option>
+				<option>1 Croissant relleno de crema de avellana + jugo natural de 16oz</option>
+				<option>1 Croissant relleno de crema de queso + jugo natural de 16oz</option>
+				<option>1 Churro relleno de dulce de leche + refresco de 16oz</option>
+				<option>1 Pedazo de pizza con bordes de queso + refresco de 16oz</option>
 			</select>
 			<div class="form-group">
 
