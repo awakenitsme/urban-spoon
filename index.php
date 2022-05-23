@@ -32,7 +32,7 @@
         <div class="row">
             <h2 style="text-align:center">Jambriento!</h2>
         </div>
-
+		<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
         <div class="row">
             <div class="content">
                 <div class="add-btn">
@@ -43,10 +43,6 @@
                     <input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
                 </div>
             </div>
-
-
-            <form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
-
             </form>
         </div>
 
