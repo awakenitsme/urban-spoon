@@ -3,10 +3,10 @@
 	if(isset($_POST['btn_enviar'])){
 		$nombre = $_POST['nombre'];
 		$curso = $_POST['curso'];
-		$telefono = $_POST['telefono'];
+		$descripcion = $_POST['descripcion'];
 		$combo = $_POST['combo'];
 		
-		$sql = "INSERT INTO personas (Nombre, Curso, Telefono, Combo) VALUES ('$nombre', '$curso', '$telefono', '$combo');";
+		$sql = "INSERT INTO personas (Nombre, Curso, Descripcion, Combo) VALUES ('$nombre', '$curso', '$descripcion', '$combo');";
 		$resultado = $mysqli->query($sql);
 		
 	

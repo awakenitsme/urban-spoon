@@ -62,10 +62,10 @@
 
 
 
-			<label for="telefono" class="col-sm-2 control-label">Telefono</label>
+			<label for="descripcion" class="col-sm-2 control-label">Descripcion</label>
 
-			<input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Telefono"
-				value="<?php echo $row['Telefono']; ?>">
+			<input type="tel" class="form-control" id="descripcion" name="descripcion" placeholder="Descripcion"
+				value="<?php echo $row['Descripcion']; ?>">
 
 
 

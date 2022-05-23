@@ -40,9 +40,9 @@
 				</optgroup>
 				<option>Ninguno</option>
 			</select>
-			<label for="telefono" class="col-sm-2 control-label">Telefono</label>
+			<label for="descripcion" class="col-sm-2 control-label">Descripcion</label>
 
-			<input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
+			<input type="text" class="form-control" id="descripcion" name="descripcion" placeholder="Descripcion">
 			<label for="combo" class="col-sm-2 control-label" required>Combo</label>
 
 			<select class="form-control" id="combo" name="combo" required>

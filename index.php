@@ -2,12 +2,12 @@
 	require 'conexion.php';
 	
 	$where = "";
-	
-	if(!empty($_POST))
+
+	if(!empty($_POST['enviar']))
 	{
 		$valor = $_POST['campo'];
 		if(!empty($valor)){
-			$where = "WHERE nombre LIKE '%$valor'";
+			$where = "WHERE Nombre LIKE '%$valor'";
 		}
 	}
 	$sql = "SELECT * FROM personas $where";
@@ -57,7 +57,7 @@
 							<th>ID</th>
 							<th>Nombre</th>
 							<th>Curso</th>
-							<th>Telefono</th>
+							<th>Descripcion</th>
 							<th>Combo</th>
 							<th>Modificar</th>
 							<th>Eliminar</th>
@@ -70,7 +70,7 @@
 								<td><?php echo $row['ID']; ?></td>
 								<td><?php echo $row['Nombre']; ?></td>
 								<td><?php echo $row['Curso']; ?></td>
-								<td><?php echo $row['Telefono']; ?></td>
+								<td><?php echo $row['Descripcion']; ?></td>
 								<td><?php echo $row['Combo']; ?></td>
 								<td><a href="modificar.php?id=<?php echo $row['ID']; ?>"><span class="btn btn-primary"></span></a></td>
 								<td><a href="eliminar.php?id=<?php echo $row['ID']; ?>" data-toggle="modal"><span class="btn btn-warning"></span></a></td>

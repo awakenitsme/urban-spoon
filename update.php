@@ -5,9 +5,9 @@
 	$id = $_POST['id'];
 	$nombre = $_POST['nombre'];
 	$curso = $_POST['curso'];
-	$telefono = $_POST['telefono'];
+	$descripcion = $_POST['descripcion'];
 	$combo = $_POST['combo'];
-	$sql = "UPDATE personas SET Nombre='$nombre', Curso='$curso', Telefono='$telefono', Combo='$combo' WHERE ID = '$id'";
+	$sql = "UPDATE personas SET Nombre='$nombre', Curso='$curso', Descripcion='$descripcion', Combo='$combo' WHERE ID = '$id'";
 	$resultado = $mysqli->query($sql);
 	
 	 if($resultado) { ?>
